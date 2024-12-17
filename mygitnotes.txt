@@ -1,0 +1,10 @@
+git rm --cached filename=to untrack a tracked file
+git rm --cached *=to untrack all tracked file
+to use git ignore we need to use vim .gitignore then insert the filenames which you dont want to track
+git reset --soft HEAD~1=to del latest commit
+git reset --hard HEAD~1=to del latest commit along with data(changes done in file for that commit)
+it is not possible to del all the commits.only n-1 commits we can del using git reset command
+git reflog=it gives the commit history
+git cherry-pick=used to get back the deleted commit history
+git ammend=used to change the commit details like message,author(name,email)
+
